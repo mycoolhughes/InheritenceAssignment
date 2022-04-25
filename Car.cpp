@@ -27,5 +27,7 @@ int Car_C::Get_NumDoors() const
 
 void Car_C::Display_Data()
 {
+	cout << "\nManufacturer: " << Get_Manufacturer();
+	cout << "\nYear Built: " << Get_YearBuilt();
 	cout << "\nDoors: " << doors;
 }

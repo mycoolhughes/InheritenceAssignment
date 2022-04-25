@@ -22,5 +22,8 @@ int SUV_C::Get_TankCapacity() const
 
 void SUV_C::Display_Data()
 {
-	cout << "\nTank capacity: " << tankCapacity;
+	cout << "\nManufacturer: " << Get_Manufacturer();
+	cout << "\nYear Built: " << Get_YearBuilt();
+	cout << "\nDoors: " << Get_NumDoors();
+	cout << "\nTank capacity: " << tankCapacity << " gallons";
 }
